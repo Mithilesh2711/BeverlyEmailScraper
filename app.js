@@ -12,7 +12,7 @@ const run = async () => {
 
     await bot.initPuppeter().then(() => console.log("PUPPETEER INITIALIZED"));
 
-    await bot.category();
+    //await bot.category();
     
     await bot.visitUrl().then(() => console.log("URL BROWSED"));
     
