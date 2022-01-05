@@ -114,7 +114,7 @@ class EmailBot {
 
     async visitUrl() {
       
-      for(var i=19;i<26;i++) {
+      for(var i=0;i<26;i++) {
         await this.page.goto(this.config.base_url+'searchalpha/'+String.fromCharCode(97+i), {waitUntil: "networkidle2"}).catch((e)=>console.log("error-",e.message))
         await this.page.waitForTimeout(2500);
         await this.page.waitForSelector(this.config.selectors.count_alphabet_wise)
