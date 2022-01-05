@@ -1,0 +1,11 @@
+{
+    "base_url": "https://business.culvercitychamber.com/list/searchalpha/",
+    "settings": {
+      "headless": true
+    },
+    "selectors": {
+      "count_alphabet_wise": "#results-found > span.gz-subtitle.gz-results-count",
+      "url_name": "#gzns > div > div.row.gz-details-header > div.col.pl-0 > div.d-flex.gz-details-head > h1",
+      "url": "#gzns > div > div.row.gz-details-links > div.col-sm-7.col-md-8 > ul > li.list-group-item.gz-card-website > a"
+    }
+  }
